@@ -1,0 +1,93 @@
+form {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-gap: 20px;
+}
+
+.text,
+label {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px 0;
+    color: #555;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #ccc;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #f8f8f8;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+select,
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #f8f8f857;
+}
+
+option {
+    font-size: 16px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #4d646d;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="radio"]:hover,
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+h1 {
+    color: #4d646d;
+    font-size: 28px;
+}
+
+.radio-options {
+    text-align: center;
+}
+
+.radio-text {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    font-size: 19px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: blue;
+    border-color: blue;
+}

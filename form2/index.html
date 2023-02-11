@@ -1,0 +1,49 @@
+<html>
+
+<title>
+    Student Information System
+</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="formstyle.css" </head>
+
+<body>
+    <h1>STUDENT INFORMATION SYSTEM</h1>
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="session">Select Session:</label>
+        <select id="session" name="session">
+            <option value="select">Select Session</option>
+            <option value="1">Morning</option>
+            <option value="2">Afternoon</option>
+            <option value="3">Evening</option>
+        </select>
+
+        <label for="roll-number">Roll Number:</label>
+        <input type="text" id="roll-number" name="roll-number" required>
+
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="year" min="1" max="5" required>
+
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" name="semester" min="1" max="10" required>
+
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" name="date-of-birth" required>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="2" required></textarea>
+
+        <input type="submit" value="Update">
+    </form>
+
+</body>
+
+</html>
