@@ -1,5 +1,5 @@
 form {
-    width: 80%;
+    width: 82%;
     margin: 0 auto;
     padding: 14px;
     border: 2px solid #ddd;
@@ -89,7 +89,7 @@ td {
 }
 
 tr.rowcolor {
-    background-color: rgba(250, 235, 215, 0);
+    background-color: #A7727D;
 }
 
 p {
