@@ -1,0 +1,14 @@
+h1 {
+    color: #4d646d;
+    font-size: 32px;
+    -webkit-text-decoration-line: underline;
+}
+
+.p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-left: 0.5em 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: auto;
+}
