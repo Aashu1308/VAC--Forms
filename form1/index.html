@@ -3,14 +3,15 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="formstyle.css">
+    <script src="form.js"></script>
 </head>
 
 <body>
 
     <h1>Resource Management: Report Filter</h1>
-    <form>
+    <form id="form1">
         <label for="server">Select Server:</label>
-        <select id="server" name="server" required>
+        <select id="server" name="Server" required>
             <option value="Fluent-PC:8121">Fluent-PC:8121</option>
             <option value="Fluent-PC:8077">Fluent-PC:8077</option>
             <option value="Imagine-PC:24">Imagine-PC:24</option>
@@ -19,42 +20,42 @@
 
         <div class="text">Visualise Data:</div>
         <label for="visualise">
-            <input type="checkbox" name="checkbox" value="yes" required>
+            <input type="checkbox" name="Checkbox" value="Yes" required>
             <br></label>
 
         <label for="format">Report Format:</label>
-        <select id="submit" name="submit" required>
+        <select id="submit" name="Submit" required>
             <option value="HTML">HTML</option>
             <option value="CSV">CSV</option>
             <option value="Docx">Docx</option>
             <option value="Txt">Txt</option><br>
         </select>
 
-        <label for="period">Report Period:</label>
+        <label for="Period">Report Period:</label>
         <div class="radio-label">
-            <input type="radio" name="period" value="today">
+            <input type="radio" name="Period" value="Today">
             <div class="radio-text">Today</div><br>
-            <input type="radio" name="period" value="yesterday">
+            <input type="radio" name="Period" value="Yesterday">
             <div class="radio-text">Yesterday</div><br>
-            <input type="radio" name="period" value="lastweek">
+            <input type="radio" name="Period" value="Last Week">
             <div class="radio-text">Last Week</div><br>
-            <input type="radio" name="period" value="lastmonth">
+            <input type="radio" name="Period" value="Last Month">
             <div class="radio-text">Last Month</div><br>
-            <input type="radio" name="period" value="last3month">
+            <input type="radio" name="Period" value="Last 3 Months">
             <div class="radio-text">Last 3 Months</div><br>
-            <input type="radio" name="period" value="last6month">
+            <input type="radio" name="Period" value="Last 6 Months">
             <div class="radio-text">Last 3 Months</div><br>
-            <input type="radio" name="period" value="last12month">
+            <input type="radio" name="Period" value="Last 12 Months">
             <div class="radio-text">Last 12 Months</div><br>
-            <input type="radio" name="period" value="daterange">
+            <input type="radio" name="Period" value="Date Range">
             <div class="radio-text">Date Range</div><br>
         </div>
         <label for="start-date">Start Date:</label>
-        <input type="date" id="start-date" name="start-date" required>
+        <input type="date" id="start-date" name="Start-Date" required>
         <label for="end-date">End Date:</label>
-        <input type="date" id="end-date" name="end-date" required>
+        <input type="date" id="end-date" name="End-Date" required>
         <label for="top-number">Top Number:</label>
-        <select id="top-number" name="top-number" required>
+        <select id="top-number" name="Top-Number" required>
             <option value="10">10</option>
             <option value="10">9</option>
             <option value="10">8</option>
@@ -67,7 +68,7 @@
             <option value="10">1</option>
         </select>
         <label for="location">Location for Names file:</label>
-        <textarea id="location" name="location" required></textarea>
+        <textarea id="Location" name="Location" required></textarea>
         <button type="submit">View Report</button>
     </form>
 
